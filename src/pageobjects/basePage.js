@@ -1,8 +1,6 @@
 import { CartModal } from './cart.modal.page';
-import { BannerModal } from './banner.modal';
 
 export class BasePage {
-
    get cartModal() {
       return new CartModal();
    }

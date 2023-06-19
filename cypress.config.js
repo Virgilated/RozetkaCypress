@@ -13,6 +13,7 @@ module.exports = defineConfig({
          require(`cypress-mochawesome-reporter/plugin`)(on);
          // implement node event listeners here
       },
+      baseUrl: `https://rozetka.com.ua/ua`,
       viewportHeight: 1080,
       viewportWidth: 1920,
       testIsolation: false,
