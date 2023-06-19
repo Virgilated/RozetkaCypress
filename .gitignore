@@ -1,8 +1,4 @@
 node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
-coverage
-/test-results/
-/playwright-report/
-/playwright/.cache/
+videos
+reports
+screenshots
