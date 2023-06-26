@@ -5,7 +5,7 @@ Good afternoon, ladies and gentlemen. This is my autotest for one of the most po
 ## Test Steps
 
 1. Open the website.
-2. Open the **'Ноутбуки та комп’ютери' (eng. Laptop & Computers)** category.
+2. Open the **'Ноутбуки та комп’ютери' (eng. Laptops & Computers)** category.
 3. Select the products subcategory randomly.
 4. Add random numbers of products to the cart **(but not more than 7)**.
 5. Validate products Titles and Prices in the Cart are the same as on the Products Page.
