@@ -1,0 +1,13 @@
+name: MyWorkFlow
+
+on: push
+
+jobs:
+   tests:
+      runs-on: windows-latest
+      steps:
+         - uses: actions/setup-node@v1
+         - name: npm install
+           run: npm ci
+         - name: run tests
+           run: npm run test:AddToCart
