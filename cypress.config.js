@@ -19,5 +19,4 @@ module.exports = defineConfig({
       testIsolation: false,
       defaultCommandTimeout: 20000,
    },
-   userAgent: `Chrome/114.0.0.0`,
 });
