@@ -7,6 +7,6 @@ jobs:
       runs-on: windows-latest
       steps:
          - name: npm install
-           run: npm install
+           run: npm ci
          - name: run tests
            run: npm run test:AddToCart
