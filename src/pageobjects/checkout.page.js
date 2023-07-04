@@ -76,7 +76,7 @@ export class CheckoutPage extends MainPage {
    }
 
    get submitButton() {
-      return cy.get(`[type="submit"]`);
+      return cy.get(`[type="submit"`);
    }
 
    get allPaymentsMethods() {
