@@ -4,6 +4,6 @@
       "cypress-mochawesome-reporter": "^3.5.1"
    },
    "scripts": {
-      "test:AddToCart": "cypress run --spec cypress/e2e/CartTest.spec.cy.js --browser chrome --headed"
+      "test:AddToCart": "cypress run --spec cypress/e2e/CartTest.spec.cy.js --browser chrome --headless"
    }
 }
